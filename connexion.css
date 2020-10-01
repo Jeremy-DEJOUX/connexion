@@ -1,0 +1,117 @@
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.inscription{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Kanit', sans-serif;
+  background: url(Images/read.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+}
+
+.F1{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.F2{
+  font-size: 30px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30%;
+  align-items: center;
+}
+
+.F3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30%;
+  margin-top: 80px;
+}
+
+.Hoobies{
+  text-align: center;
+  margin-right: 30%;
+  margin-top: 80px;
+}
+
+.F4{
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30%;
+  margin-top: 10px;
+  height: 400px;
+}
+
+.F5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30%;
+  margin-top: 80px;
+}
+
+/* Décoration */
+
+.F1 input{
+  margin: 5px;
+  border-radius: 20%;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+}
+
+.F1 input:hover{
+  background-color: lightyellow;
+}
+
+
+.F2 input ~ label{
+  padding: 20px;
+}
+
+
+.Radio:checked + label{
+  color: yellow;
+  font-weight: bold;
+}
+
+
+
+.F3 h2{
+  padding-right: 15px;
+}
+
+
+.F4 article{
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+
+div input:checked + label{
+  color: blue;
+  font-weight: bold;
+}
+
+
+
+.button{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
