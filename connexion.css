@@ -4,6 +4,11 @@ html{
   margin: 0px;
 }
 
+h1{
+  margin: 0px;
+}
+
+
 /* HEADER */
 .header{
 margin: 0px;
@@ -17,6 +22,18 @@ background-color: rgba(164, 93, 69, 0.7);
 .headmenu{
 display: flex;
 flex-direction: row;
+}
+
+.headimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headimg h1{
+  padding-left: 10px;
+}
+.headimg i{
+  padding-left: 10px;
 }
 .headRegister{
 padding-right: 100px;
@@ -36,22 +53,26 @@ font-style: none;
 
 
 
-      /* PADE d'INSCRIPTION */
 
-body{
-margin: 0px;
-height: auto;
-width: auto;
-font-family: 'Kanit', sans-serif;
-background: url(Images/read.jpg) no-repeat center center fixed;
-background-size: cover;
-color: black;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+
+
+
+
+                    /* PADE d'INSCRIPTION */
+
+
+.inscription{
+  margin: 0px;
+  height: auto;
+  width: auto;
+  font-family: 'Kanit', sans-serif;
+  background: url(Images/read.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-
 
 .maininscrtpion{
   height: 100%;
@@ -137,13 +158,7 @@ div input:checked + label{
 
 
 
-/* PAGE DE CONNEION */
-
-
-
-
-
-
+                      /* PAGE DE CONNEION */
 
 .connexion{
   margin: 0px;
@@ -157,14 +172,6 @@ div input:checked + label{
   flex-direction: column;
   justify-content: space-between;
 }
-
-
-
-
-
-
-
-
 
 
                   /* MAIN */
@@ -231,6 +238,63 @@ div input:checked + label{
 
 
 
+                /* MOT DE PASSE */
+.motdepasse{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Kanit', sans-serif;
+  background: url(Images/read.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mainmotdepasse{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formmotdepasse{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 200px;
+  width: 400px;
+}
+
+
+.FM_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FM_1 label{
+  color: rgb(196, 177, 156);
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.FM_1 input{
+  border-radius: 10%;
+  padding-right: 10px;
+}
+.FM_1 input:hover{
+  background-color: lightyellow;
+}
+
+
+
+
+
+
 
 
                   /* FOOTER */
@@ -256,6 +320,7 @@ div input:checked + label{
   padding-right: 100px;
 }
 .foot p{
+  filter: brightness(black);
   padding-left: 5px;
   margin: 0px;
 }
