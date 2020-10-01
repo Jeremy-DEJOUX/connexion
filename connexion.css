@@ -4,101 +4,119 @@ html{
   margin: 0px;
 }
 
-.inscription{
-  margin: 0px;
-  height: 100%;
-  width: 100%;
-  font-family: 'Kanit', sans-serif;
-  background: url(Images/read.jpg) no-repeat center center fixed;
-  background-size: cover;
-  color: black;
+/* HEADER */
+.header{
+margin: 0px;
+height: 5%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(164, 93, 69, 0.7);
 }
+.headmenu{
+display: flex;
+flex-direction: row;
+}
+.headRegister{
+padding-right: 100px;
+display: flex;
+align-items: center;
+}
+.headLogin{
+padding-right: 100px;
+}
+.headmenu a{
+padding-left: 5px;
+margin: 0px;
+color: black;
+font-style: none;
+}
+
+
+
+
+      /* PADE d'INSCRIPTION */
+
+body{
+margin: 0px;
+height: auto;
+width: auto;
+font-family: 'Kanit', sans-serif;
+background: url(Images/read.jpg) no-repeat center center fixed;
+background-size: cover;
+color: black;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+
+
+.maininscrtpion{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Formulaireinscritpion{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .F1{
+  margin-top: 10px;
+  height: 100%;
+  width: 25%;
   display: flex;
   flex-direction: column;
-  margin-right: 30%;
-  margin-top: 10px;
+  justify-content: space-around;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.F2{
-  font-size: 30px;
-  margin-top: 80px;
+.F1 label{
+  color: rgb(196, 177, 156);
+  font-size: 20px;
+}
+.F1 input{
+  margin-bottom: 10px;
+}
+
+.F2_1{
   display: flex;
-  flex-direction: column;
-  margin-right: 30%;
-  align-items: center;
+  justify-content: center;
 }
 
 .F3{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-right: 30%;
-  margin-top: 80px;
-}
-
-.Hoobies{
-  text-align: center;
-  margin-right: 30%;
-  margin-top: 80px;
 }
 
 .F4{
-  font-size: 30px;
+  width: auto;
+  height: 270px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
   align-items: center;
-  margin-right: 30%;
-  margin-top: 10px;
-  height: 400px;
 }
-
 .F5{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 30%;
-  margin-top: 80px;
 }
-
-/* Décoration */
-
-.F1 input{
-  margin: 5px;
-  border-radius: 20%;
-  padding: 20px;
-  width: 200px;
-  height: auto;
-}
-
-.F1 input:hover{
-  background-color: lightyellow;
-}
-
-
-.F2 input ~ label{
-  padding: 20px;
-}
-
-
 .Radio:checked + label{
   color: yellow;
   font-weight: bold;
-}
-
-
-
-.F3 h2{
-  padding-right: 15px;
-}
-
-
-.F4 article{
-  padding-right: 50px;
-  padding-bottom: 10px;
 }
 
 
@@ -109,9 +127,135 @@ div input:checked + label{
 
 
 
-.button{
-  margin: 10px;
+
+
+
+
+
+
+
+
+
+
+/* PAGE DE CONNEION */
+
+
+
+
+
+
+
+.connexion{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Kanit', sans-serif;
+  background: url(Images/read.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+                  /* MAIN */
+
+.connexion main{
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 25%;
+  height: 25%;
+}
+
+.mainconnexion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mainCLogin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.mainCLogin label{
+  color: rgb(196, 177, 156);
+  font-size: 20px;
+  font-style: italic;
+}
+
+.PassMDP{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.PassMDP label{
+  color: rgb(196, 177, 156);
+  font-size: 20px;
+  font-style: italic;
+}
+.WrongMDP{
+  color: rgb(196, 177, 156);
+}
+.BoutonConnexion{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainconnexion input:hover{
+  background-color: lightyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+                  /* FOOTER */
+.foot{
+  margin-bottom: 0px;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(169, 93, 71, 0.7);
+}
+.footmenu{
+  display: flex;
+  flex-direction: row;
+}
+.footAide{
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-right: 100px;
+}
+.footCondition{
+  padding-right: 100px;
+}
+.foot p{
+  padding-left: 5px;
+  margin: 0px;
 }

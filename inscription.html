@@ -5,159 +5,207 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="connexion.css">
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/56188ecd90.js" crossorigin="anonymous"></script>
 
   <title></title>
 </head>
 
-<body class="inscription">
+  <body class="inscription">
 
-  <header class="Iheader">
+    <header class="header">
 
-  </header>
-
-  <main class="Imain">
-
-    <form class="Formualaire" action="connexion.html" method="post">
-
-
-      <!-- Texte Login MDP... -->
-
-      <div class="F1">
-
-          <div class="Login">
-            <input placeholder="Login" type="text" id="Login" name="user_Login" value="">
-          </div>
-          <div class="MDP">
-            <input placeholder="Password" type="password" id="Password" name="user_Password" value="">
-            <input placeholder="Confirm Password" type="password" id="Password" name="user_Password" value="">
-          </div>
-          <div class="Mail">
-            <input placeholder="Email" type="email" id="mail" name="user_mail" value="">
-            <input placeholder="Téléphone" type="tel" id="tel" name="user_tel" value="">
-          </div>
-          <div class="Name">
-            <input placeholder="Nom" id="Nom" type="text" name="user_Nom" value="">
-            <input type="text" placeholder="Prénom" id="Prenom" name="user_Prenom" value="">
-          </div>
-          <div class="Born">
-            <input type="date" id="Naissance" name="user_Naissance" value="">
-          </div>
-
+      <div class="headimg">
+        <img src="" alt="">
       </div>
 
-
-      <!-- SEXE -->
-
-
-      <div class="F2">
-        <div class="Hommes">
-          <input class="Radio" type="radio" id="male" name="gender" value="">
-          <label for="male">Homme</label>
+      <div class="headmenu">
+        <div class="headRegister">
+          <i class="fas fa-sign-in-alt"></i>
+          <a href="inscription.html" class="headRegister2">Register</a>
         </div>
-        <div class="Femmes">
-          <input class="Radio" type="radio" id="female" name="gender" value="">
-          <label for="female">Femme</label>
+        <div class="headLogin">
+          <p>Login</p>
         </div>
 
       </div>
 
+    </header>
 
-      <!-- Niveau Etude -->
+    <main class="maininscrtpion">
 
-
-      <div class="F3">
-        <h2 class="LVL">Quel est votre Niveau d'étude ?</h2>
-        <select class="" name="">
-          <option value="">Aucun</option>
-          <option value="">Brevet</option>
-          <option value="">Bac</option>
-          <option value="">Bac +2</option>
-          <option value="">Bac +3</option>
-          <option value="">Bac +5</option>
-          <option value="">Bac > +5</option>
-          <option value="">Autre</option>
-        </select>
-      </div>
+      <form class="Formulaireinscritpion" action="connexion.html" method="post">
 
 
+        <!-- Texte Login MDP... -->
 
-      <!-- Hobbies -->
-
-      <h2 class="Hoobies">Quel sont vos Hobbies ?</h2>
-      <div class="F4">
-
-          <input class="" type="checkbox" name="Ciné" value="">
-          <label for="Ciné">Cinéma</label>
+        <div class="F1">
 
 
-          <input type="checkbox" name="Sports" value="">
-          <label for="Sports">Sports</label>
+              <label for="Login">Login</label>
+              <input placeholder="Login" type="text" id="Login" name="user_Login" value="">
+
+              <label for="Password">Password</label>
+              <input placeholder="Password" type="password" id="Password" name="user_Password" value="">
+              <label for="Password">Confirm Password</label>
+              <input placeholder="Confirm Password" type="password" id="Password" name="user_Password" value="">
+
+              <label for="mail">Mail</label>
+              <input placeholder="Email" type="email" id="mail" name="user_mail" value="">
+
+              <label for="tel">Téléphone</label>
+              <input placeholder="Téléphone" type="tel" id="tel" name="user_tel" value="">
+
+              <label for="Nom">Nom</label>
+              <input placeholder="Nom" id="Nom" type="text" name="user_Nom" value="">
+
+              <label for="Prenom">Prénom</label>
+              <input type="text" placeholder="Prénom" id="Prenom" name="user_Prenom" value="">
+
+              <label for="Naissance">Date de Naissance</label>
+              <input type="date" id="Naissance" name="user_Naissance" value="">
 
 
-          <input type="checkbox" name="Séries" value="">
-          <label for="Séries">Séries</label>
+        </div>
 
 
-          <input type="checkbox" name="Games" value="">
-          <label for="Games">Jeux Vidéo/Société</label>
+        <!-- SEXE -->
 
+        <div class="F2">
+          <h2>Quel est votre Sexe ?</h2>
+          <div class="F2_1">
+            <div class="Hommes">
+              <input class="Radio" type="radio" id="male" name="gender" value="">
+              <label for="male">Homme</label>
+            </div>
+            <div class="Femmes">
+              <input class="Radio" type="radio" id="female" name="gender" value="">
+              <label for="female">Femme</label>
+            </div>
 
-          <input type="checkbox" name="Mangas" value="">
-          <label for="Mangas">Mangas</label>
-
-
-          <input type="checkbox" name="Musique" value="">
-          <label for="Musique">Musique</label>
-
-
-          <input type="checkbox" name="Photo" value="">
-          <label for="Photo">Photographie</label>
-
-
-          <input type="checkbox" name="Danse" value="">
-          <label for="Danse">Danser</label>
-
-
-          <input type="checkbox" name="Cook" value="">
-          <label for="Cook">Cuisiner</label>
-
-
-          <input type="checkbox" name="Draw" value="">
-          <label for="Draw">Dessiner</label>
-
-
-          <input type="checkbox" name="sing" value="">
-          <label for="sing">Chanter</label>
-
-
-          <input type="checkbox" name="Hautres" value="">
-          <label for="Hautres">Autre</label>
-
-      </div>
+          </div>
+        </div>
 
 
 
+        <!-- Niveau Etude -->
 
-      <!-- Message de Présentation -->
 
+        <div class="F3">
+          <h2 class="LVL">Quel est votre Niveau d'étude ?</h2>
+          <select class="" name="">
+            <option value="">Aucun</option>
+            <option value="">Brevet</option>
+            <option value="">Bac</option>
+            <option value="">Bac +2</option>
+            <option value="">Bac +3</option>
+            <option value="">Bac +5</option>
+            <option value="">Bac > +5</option>
+            <option value="">Autre</option>
+          </select>
+        </div>
+
+
+
+        <!-- Hobbies -->
+
+        <h2 class="Hoobies">Quel sont vos Hobbies ?</h2>
+        <div class="F4">
+
+            <input class="" type="checkbox" name="Ciné" value="">
+            <label for="Ciné">Cinéma</label>
+
+
+            <input type="checkbox" name="Sports" value="">
+            <label for="Sports">Sports</label>
+
+
+            <input type="checkbox" name="Séries" value="">
+            <label for="Séries">Séries</label>
+
+
+            <input type="checkbox" name="Games" value="">
+            <label for="Games">Jeux Vidéo/Société</label>
+
+
+            <input type="checkbox" name="Mangas" value="">
+            <label for="Mangas">Mangas</label>
+
+
+            <input type="checkbox" name="Musique" value="">
+            <label for="Musique">Musique</label>
+
+
+            <input type="checkbox" name="Photo" value="">
+            <label for="Photo">Photographie</label>
+
+
+            <input type="checkbox" name="Danse" value="">
+            <label for="Danse">Danser</label>
+
+
+            <input type="checkbox" name="Cook" value="">
+            <label for="Cook">Cuisiner</label>
+
+
+            <input type="checkbox" name="Draw" value="">
+            <label for="Draw">Dessiner</label>
+
+
+            <input type="checkbox" name="sing" value="">
+            <label for="sing">Chanter</label>
+
+
+            <input type="checkbox" name="Hautres" value="">
+            <label for="Hautres">Autre</label>
+
+        </div>
+
+
+
+
+        <!-- Message de Présentation -->
+      </form>
 
       <div class="F5">
-        <div class="Message">
-          <label for="msg">Présentez-vous :</label>
+        <div class="F5_1">
+          <div class="Message">
+            <label for="msg">Présentez-vous :</label>
+          </div>
           <textarea id="msg" name="user_message" rows="8" cols="80"></textarea>
         </div>
-
-        <div class="Bouton">
-          <button type="submit">Envoyer</button>
+        <div class="inscriptionBouton">
+          <a href="connexion.html"><button type="button">Envoyer</button></a>
         </div>
 
       </div>
 
-    </form>
-  </main>
-  <footer class="Ifooter">
 
-  </footer>
-</body>
+
+
+
+    </main>
+
+
+    <footer class="foot">
+
+      <div class="footimg">
+        <img src="" alt="">
+      </div>
+
+      <div class="footmenu">
+        <div class="footAide">
+          <i class="fas fa-info"></i>
+          <p>Aide</p>
+        </div>
+        <div class="footCondition">
+          <p>Condition</p>
+        </div>
+
+      </div>
+
+
+
+    </footer>
+  </body>
 
 </html>
