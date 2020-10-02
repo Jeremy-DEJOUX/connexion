@@ -1,90 +1,70 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="connexion.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/56188ecd90.js" crossorigin="anonymous"></script>
-  </head>
-  <body class="connexion">
 
-    <header class="header">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="connexion.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/56188ecd90.js" crossorigin="anonymous"></script>
+</head>
 
-      <div class="headimg">
-        <i class="fas fa-book-open"></i>
-        <h1>BooKlight</h1>
-      </div>
+<body class="connexion">
 
-      <div class="headmenu">
-        <div class="headRegister">
-          <i class="fas fa-sign-in-alt"></i>
-          <a href="inscription.html" class="headRegister2">Register</a>
-        </div>
-        <div class="headLogin">
-          <p>Login</p>
-        </div>
+  <!-- HAUT DE PAGE -->
 
-      </div>
+  <header class="header">
+    <article class="headimg">
+      <i class="fas fa-book-open"></i>
+      <h1>BooKlight</h1>
+    </article>
+    <div class="headmenu">
+      <section class="headRegister">
+        <i class="fas fa-sign-in-alt"></i>
+        <a href="inscription.html" class="headRegister2">Register</a>
+      </section>
+      <section class="headLogin">
+        <p>Login</p>
+      </section>
+    </div>
+  </header>
 
-    </header>
+  <!-- MILIEU DE PAGE -->
 
+  <main class="mainconnexion">
+    <form class="FormualaireConnexion" action="index.html" method="post">
+      <section class="mainCLogin">
+        <label for="login">Username</label>
+        <input type="text" name="login" value="">
+      </section>
+      <section class="PassMDP">
+        <label for="motdepasse">Password</label>
+        <input type="password" name="motdepasse" value="">
+        <a href="motdepasse.html" class="WrongMDP">Mot de passe oublié ?</a>
+      </section>
+      <section class="BoutonConnexion">
+        <button type="submit">Envoyer</button>
+      </section>
+    </form>
+  </main>
 
+  <!-- BAS DE PAGE -->
 
+  <footer class="foot">
+    <div class="footimg">
+      <img src="" alt="">
+    </div>
+    <div class="footmenu">
+      <article class="footAide">
+        <i class="fas fa-info"></i>
+        <p>Aide</p>
+      </article>
+      <article class="footCondition">
+        <p>Condition</p>
+      </article>
+    </div>
+  </footer>
 
+</body>
 
-
-    <main class="mainconnexion">
-      <form class="FormualaireConnexion" action="index.html" method="post">
-
-        <div class="mainCLogin">
-
-          <label for="login">Username</label>
-          <input type="text" name="login" value="">
-
-        </div>
-
-        <div class="PassMDP">
-          <label for="motdepasse">Password</label>
-          <input type="password" name="motdepasse" value="">
-          <a href="motdepasse.html" class="WrongMDP">Mot de passe oublié ?</a>
-
-        </div>
-
-        <div class="BoutonConnexion">
-          <button type="submit">Envoyer</button>
-        </div>
-
-      </form>
-    </main>
-
-
-
-
-
-
-
-
-    <footer class="foot">
-
-      <div class="footimg">
-        <img src="" alt="">
-      </div>
-
-      <div class="footmenu">
-        <div class="footAide">
-          <i class="fas fa-info"></i>
-          <p>Aide</p>
-        </div>
-        <div class="footCondition">
-          <p>Condition</p>
-        </div>
-
-      </div>
-
-
-
-    </footer>
-
-  </body>
 </html>
